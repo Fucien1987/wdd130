@@ -14,10 +14,10 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
-
     position: relative;
     grid-column: 1/2;
     grid-row: 1/2;
+
 }
 
 aside img {
