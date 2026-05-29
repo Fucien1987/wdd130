@@ -76,14 +76,14 @@ article {
 }
 
 .hero img {
-    position: absolute;
+    position: relative;
     display: block;
     width: 100%;
     height: auto;
 }
 
 .hero h1 {
-    position: absolute;
+    position: relative;
     top: 20px;
     width: 100%;
     left: 0;
@@ -91,7 +91,7 @@ article {
 }
 
 .hero article {
-    position: absolute;
+    position: relative;
     top: 20px;
     width: 100%;
     padding: 16px;
