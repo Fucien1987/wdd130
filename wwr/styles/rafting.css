@@ -153,6 +153,7 @@ article {
 }
 
 .adventures img {
+    position: absolute;
     width: 0%;
     max-width: 100;
     grid-template-columns: repeat(5, 120px);
