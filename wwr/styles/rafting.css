@@ -76,7 +76,6 @@ article {
 }
 
 .hero img {
-    position: absolute;
     display: block;
     width: 100%;
     height: auto;
@@ -84,6 +83,7 @@ article {
 
 .h1,
 .hero article {
+    position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
