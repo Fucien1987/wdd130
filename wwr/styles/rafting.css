@@ -152,6 +152,6 @@ article {
 .adventures img {
     position: relative;
     width: 100%;
-    max-width: 100;
+    max-width: 100px;
     grid-template-columns: repeat(5, 120px);
 }
