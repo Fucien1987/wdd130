@@ -29,11 +29,26 @@ footer {
     margin: 0 auto;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-    background-color: var(--secondary-color);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px
+}
+
+header img {
+    width: 150px;
 }
 
 nav,
@@ -42,6 +57,27 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0, 7;
+    background-color: var(--accent1-color);
+    color: #fff;
 }
 
 .socialmedia a {
@@ -56,42 +92,6 @@ article {
 
 .socialmedia img {
     width: 40px;
-}
-
-.hero {
-    position: absolute;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-h1 {
-    position: absolute;
-    top: 50px;
-    left: 50;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
-    /* white text - make sure there is enough contrast with background-color */
-}
-
-.hero article {
-    position: left;
-    bottom: 20px;
-    background-color: var(--accent2-color);
-    align-items: left;
-    padding: 15px;
-}
-
-.hero article img {
-    float: right;
-    width: 100px;
 }
 
 .history {
