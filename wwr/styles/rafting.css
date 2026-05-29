@@ -76,7 +76,7 @@ article {
 }
 
 .hero img {
-    position: relative;
+    position: absolute;
     display: block;
     width: 100%;
     height: auto;
@@ -91,7 +91,7 @@ article {
 }
 
 .hero article {
-    position: relative;
+    position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
