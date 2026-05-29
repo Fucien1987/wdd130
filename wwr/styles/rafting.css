@@ -59,7 +59,7 @@ article {
 }
 
 .hero {
-    position: relative;
+    position: absolute;
 }
 
 .hero img {
@@ -69,8 +69,9 @@ article {
 }
 
 h1 {
-    position: static;
-    top: 20px;
+    position: absolute;
+    top: 50px;
+    left: 50;
     width: 100%;
     padding: 16px;
     text-align: center;
@@ -81,39 +82,54 @@ h1 {
 }
 
 .hero article {
-    position: absolute;
+    position: left;
     bottom: 20px;
     background-color: var(--accent2-color);
-    opacity: 0.9;
+    align-items: left;
+    padding: 15px;
 }
 
 .hero article img {
     float: right;
-    width: 125px;
+    width: 100px;
 }
 
 .history {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: centrer;
+    align-items: center;
     gap: 20px;
 }
 
 .history img {
+    width: 20%;
+    align-items: center;
+}
+
+.adventures h2 {
+    position: absolute;
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 15px;
     width: 100%;
 }
 
 .adventures {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     gap: 10px;
+    text-align: center;
 }
 
 .adventures figure {
-    text-align: center;
+    margin: 0;
+    grid-template-columns: repeat(5, 120px);
+    gap: 15px;
+    display: absolute;
 }
 
 .adventures img {
     width: 100%;
-    max-width: 150px;
+    max-width: 100;
+    grid-template-columns: repeat(5, 120px);
 }
