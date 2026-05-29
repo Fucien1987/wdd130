@@ -81,7 +81,7 @@ article {
     height: auto;
 }
 
-h1,
+.h1,
 .hero article {
     position: absolute;
     top: 20px;
