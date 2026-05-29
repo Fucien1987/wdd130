@@ -150,11 +150,10 @@ article {
     margin: 0;
     grid-template-columns: repeat(5, 120px);
     gap: 15px;
-    display: absolute;
 }
 
 .adventures img {
-    width: 100%;
+    width: 0%;
     max-width: 100;
     grid-template-columns: repeat(5, 120px);
 }
