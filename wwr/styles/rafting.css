@@ -72,7 +72,7 @@ article {
 }
 
 .hero {
-    position: relative;
+    position: absolute;
 }
 
 .hero img {
