@@ -106,7 +106,7 @@ article {
     margin-left: 740px;
 }
 
-.socialmedia {
+.socialmedia a {
     text-decoration: none;
     display: flex;
     justify-content: right;
