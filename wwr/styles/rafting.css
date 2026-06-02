@@ -34,6 +34,7 @@ header {
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
+    background-color: var(--accent1-color);
 }
 
 h1,
@@ -52,8 +53,20 @@ footer {
 
 nav {
     display: flex;
-    justify-content: flex-end;
-    gap: 20px
+    justify-content: space-around;
+    /* gap: 20px: */
+}
+
+nav a {
+    color: #fff;
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 1em;
+}
+
+nav a :hover {
+    color: var(--accent1-color);
+    background-color: #fff;
 }
 
 header img {
@@ -73,7 +86,7 @@ article {
 }
 
 .hero img {
-    position: absolute;
+    /* position: absolute; */
     display: block;
     width: 100%;
     height: auto;
@@ -82,19 +95,20 @@ article {
 
 .hero h1 {
     position: absolute;
-    top: 10%;
+    top: 1em;
     left: 0%;
     right: 0;
     text-align: center;
-    color: green;
+    color: #024302;
+    padding: 1rem 0;
 }
 
 .hero article {
     position: absolute;
-    position: relative;
-    top: 60px;
-    width: 100%;
-    padding: 18px;
+    /* position: relative; */
+    top: 8em;
+    /* width: 100%; */
+    padding: 1em;
     text-align: left;
     opacity: 0, 9;
     background-color: var(--accent1-color);
@@ -103,8 +117,9 @@ article {
 
 .hero article img {
     float: right;
-    width: 75px;
-    margin-left: 740px;
+    width: 200px;
+    /* margin-left: 740px; */
+    padding: 0 0 0 1em;
 }
 
 .socialmedia a {
