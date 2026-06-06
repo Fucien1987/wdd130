@@ -200,6 +200,11 @@ article {
     align-items: start;
 }
 
+.contact-section h2 {
+    position: absolute;
+    left: -9999px;
+}
+
 .contact-info {
     position: relative;
     text-align: center;
