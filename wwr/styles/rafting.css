@@ -284,3 +284,7 @@ article {
     align-items: center;
 
 }
+
+iframe {
+    border: 0;
+}
