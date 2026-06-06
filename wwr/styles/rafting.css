@@ -49,7 +49,13 @@ h1 {
 }
 
 footer {
-    background-color: var(--accent2-color);
+    background-color: #e9c46a;
+    max-width: 820px;
+    margin: auto;
+}
+
+footer p {
+    margin: -5px;
 }
 
 nav {
@@ -197,11 +203,11 @@ article {
 .contact-info {
     position: relative;
     text-align: center;
-    line-height: 0.9;
+    line-height: 1px;
 }
 
 .contact-info p {
-    margin: -2px;
+    margin: 10px;
     font-weight: 600;
     font-size: 0.9rem;
 }
@@ -216,13 +222,13 @@ article {
 }
 
 .contact-form {
-    width: 90%;
+    width: 120%;
 }
 
 .contact-form form {
     display: grid;
-    grid-template-columns: 70px 1fr;
-    gap: 5px 12px;
+    grid-template-columns: 50px 1fr;
+    gap: 10px 15px;
     align-items: center;
 }
 
@@ -230,7 +236,7 @@ article {
 .contact-form input[type="email"],
 .contact-form textarea,
 .contact-form button {
-    width: 100%;
+    width: 65%;
 }
 
 .newsletter {
@@ -241,11 +247,11 @@ article {
     max-width: 800px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 15px;
+    gap: 10px;
+    padding: 10px;
     border: 1px solid #333;
     text-align: center;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 
 .employees h2 {
@@ -259,8 +265,17 @@ article {
 }
 
 .radio-group {
+    margin-left: 40px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     align-items: flex-start;
+}
+
+.radio-group label {
+    display: flow-root;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
 }
