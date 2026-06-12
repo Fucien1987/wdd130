@@ -288,3 +288,52 @@ article {
 iframe {
     border: 0;
 }
+
+.trips {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.trips article {
+    flex: 1;
+    text-align: center;
+}
+
+.trips img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th .trip-table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.trip-table th {
+    background-color: #f4a261;
+}
+
+.grid-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.grid-content img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+.grid-content div {
+    flex: 1;
+    text-align: center;
+}
